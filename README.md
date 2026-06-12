@@ -65,11 +65,14 @@ ai-job-hunting-toolkit/
 
 ## 平台封装指引
 
-这些 `.md` 文件本质上是 AI 提示词。如果想在特定平台获得更好的体验，可以自行封装：
+这些 `.md` 文件本质上是 AI 提示词。如果想在特定平台获得更好的体验，可以自行封装为 Skill/插件：
 
-- **Proma**：复制到工作区 `skills/` 目录，对话中提及关键词自动激活
-- **Claude Code**：复制到 `.claude/commands/` 目录，作为自定义 slash command 调用
-- **Codex / Kimi / 其他**：查看对应平台的 agent 或插件文档，将 prompt 内容作为系统指令注入
+| 平台 | 封装方式 |
+|------|---------|
+| ChatGPT / Kimi / 豆包 等 | 直接复制粘贴到对话框，无需封装 |
+| Proma | 复制到工作区 `skills/` 目录，关键词自动激活 |
+| Claude Code | 复制到 `.claude/skills/<name>/SKILL.md`，通过 `/name` 调用 |
+| Codex (OpenAI) | 复制到 `.agents/skills/<name>/SKILL.md`，自动发现或显式调用 |
 
 封装不是必需的——直接复制粘贴到对话框就够用了。
 
