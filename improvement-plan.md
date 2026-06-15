@@ -565,21 +565,21 @@ README 显著位置标注：基础分析所有平台可用，自动持久化需�
 按批次勾选，每批完成是一个独立 commit。
 
 ### Batch 1（三份文件各加「通用规则」节）
-- [ ] B1-1 当前日期规则（三份）
-- [ ] B1-2 反提示词注入（resume + interview）
-- [ ] B1-3 隐私脱敏提醒（三份）
-- [ ] B1-4 平台降级策略（resume + interview 补，job-tracker 已有）
-- [ ] B1-5 提问节奏（三份）
+- [x] B1-1 当前日期规则（job-tracker；resume 不涉及日期计算，interview 的日期需求由 Batch 4 首次分流承载）
+- [x] B1-2 反提示词注入（resume + interview）
+- [x] B1-3 隐私脱敏提醒（三份）
+- [x] B1-4 平台降级策略（resume + interview 补；job-tracker 原文已有，不重复加）
+- [x] B1-5 提问节奏（三份）
 
 ### Batch 2（job-tracker 重构）
-- [ ] B2-1 失败反馈改索引表+详情块
-- [ ] B2-2 统一 ID 体系（APP/INT/FB/IP）+ 全文 ID 替换
-- [ ] B2-3 状态机 + 命名统一
-- [ ] B2-4 统计公式
-- [ ] B2-5 会话恢复流程
-- [ ] B2-6 判重粒度
-- [ ] B2-7 删除/撤销操作
-- [ ] B2-8 同类岗位判定（依赖 B2-2）
+- [x] B2-1 失败反馈改索引表+详情块
+- [x] B2-2 统一 ID 体系（APP/INT/FB/IP）+ 全文 ID 替换
+- [x] B2-3 状态机 + 命名统一
+- [x] B2-4 统计公式
+- [x] B2-5 会话恢复流程
+- [x] B2-6 判重粒度
+- [x] B2-7 删除/撤销操作
+- [x] B2-8 同类岗位判定（依赖 B2-2）
 
 ### Batch 3（resume-optimizer）
 - [ ] B3-1 评分锚点 + rubric
