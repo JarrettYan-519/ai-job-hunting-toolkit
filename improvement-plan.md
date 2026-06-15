@@ -596,8 +596,8 @@ README 显著位置标注：基础分析所有平台可用，自动持久化需�
 - [ ] B4-6 岗位方向切换
 
 ### Batch 5（Polish，可选）
-- [ ] B5-1 README 功能分级
-- [ ] B5-2 版本号 / CHANGELOG
+- [x] B5-1 README 功能分级
+- [x] B5-2 版本号 / CHANGELOG
 - [ ] B5-3 demo 截图
 - [ ] B5-4 框架对比去硬编码
 
